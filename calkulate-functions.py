@@ -11,6 +11,17 @@ def average(*numbers):
     return sum(numbers) / len(numbers)
 
 
+def check_even_odd(number):
+    if number %  2 == 0:
+        return "even"
+    else:
+        return "odd"
+    
+
+    def find_min_max(numbers):
+        return min(numbers), 
+
+
 def avg(*args):
     return sum (args) / len(args)
 
@@ -47,4 +58,4 @@ purchase1 = add_numbers(price_book, price_pen)
 purchase2 = add_numbers(price_book, price_movie)
 purchase3 = add_numbers(price_book, price_movie)
 
-print(f"Der")
+print(f"Der Mittelwert aller Einkaufe ist")
